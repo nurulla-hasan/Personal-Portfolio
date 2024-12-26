@@ -102,31 +102,40 @@ const Hero = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, delay: 1.2 }}
       >
-        <motion.img
-          src={facebook}
-          alt=""
-          className='w-14'
-          whileHover={{ scale: 1.2 }}
-        />
-        <motion.img
-          src={instagram}
-          alt=""
-          className='w-14'
-          whileHover={{ scale: 1.2 }}
-        />
-        <motion.img
-          src={twitter}
-          alt=""
-          className='w-14'
-          whileHover={{ scale: 1.2 }}
-        />
-        <motion.img
-          src={linkedin}
-          alt=""
-          className='w-14'
-          whileHover={{ scale: 1.2 }}
-        />
+        <motion.a href="https://www.facebook.com/golap.hasan.315" target="_blank">
+          <motion.img
+            src={facebook}
+            alt="Facebook"
+            className='w-14'
+            whileHover={{ scale: 1.2 }}
+          />
+        </motion.a>
+        <motion.a href="https://www.instagram.com/golap.hasan.315/" target="_blank">
+          <motion.img
+            src={instagram}
+            alt="Instagram"
+            className='w-14'
+            whileHover={{ scale: 1.2 }}
+          />
+        </motion.a>
+        <motion.a href="https://x.com/dev_nurulla" target="_blank">
+          <motion.img
+            src={twitter}
+            alt="Twitter"
+            className='w-14'
+            whileHover={{ scale: 1.2 }}
+          />
+        </motion.a>
+        <motion.a href="www.linkedin.com/in/nurulla-hasan" target="_blank">
+          <motion.img
+            src={linkedin}
+            alt="LinkedIn"
+            className='w-14'
+            whileHover={{ scale: 1.2 }}
+          />
+        </motion.a>
       </motion.div>
+
     </section>
   )
 }
