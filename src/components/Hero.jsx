@@ -126,7 +126,7 @@ const Hero = () => {
             whileHover={{ scale: 1.2 }}
           />
         </motion.a>
-        <motion.a href="www.linkedin.com/in/nurulla-hasan" target="_blank">
+        <motion.a href="https://www.linkedin.com/in/nurulla-hasan" target="_blank">
           <motion.img
             src={linkedin}
             alt="LinkedIn"
