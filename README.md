@@ -2,6 +2,10 @@
 
 Welcome to my personal portfolio website! This website showcases my skills, projects, and experiences as a **Full-Stack Developer**. I am passionate about web development, and I aim to build intuitive, user-friendly applications that solve real-world problems.
 
+## Live Link
+
+You can check out my live portfolio here: [Personal Portfolio](https://personal-portfolio-six-blush-93.vercel.app/)
+
 ## Features
 
 - **Responsive Design**: The portfolio is fully responsive and works seamlessly on desktop, tablet, and mobile devices.
